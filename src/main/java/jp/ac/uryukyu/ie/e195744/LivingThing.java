@@ -1,5 +1,13 @@
 package jp.ac.uryukyu.ie.e195744;
 
+/*
+*リビングシングクラス
+*ヒーローと敵の情報。
+* @param name ヒーロー、敵の名前
+* @param hitPoint ヒーロー、敵のHP
+* @param attack ヒーロー、敵の攻撃力
+* @param dead ヒーロー、敵の生死状態
+ */
 public class LivingThing {
     private String name;
     private int hitPoint;
